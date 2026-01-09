@@ -1,0 +1,91 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #1e90ff;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-section input {
+  padding: 8px;
+  width: 200px;
+}
+
+.search-btn {
+  padding: 8px 15px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.card {display: flex;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.card img {
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.details {
+  flex: 1;
+}
+
+.like {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dislike {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
